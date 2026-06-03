@@ -12,19 +12,19 @@ dotnet restore
 
 ### 2. Configurar la conexión a la base de datos
 
-Ubica el archivo:
+Enel archivo:
 
 ```bash
 appsettings.json
 ```
 
-Luego, modifica el valor de la cadena de conexión (`ConnectionString`) con los datos correspondientes de tu servidor y base de datos.
+Modifica el valor de la cadena de conexión (`ConnectionString`) con los datos correspondientes de tu servidor y base de datos.
 
 Ejemplo:
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=TU_SERVIDOR;Database=TU_BASE_DE_DATOS;User Id=TU_USUARIO;Password=TU_PASSWORD;"
+  "DefaultConnection": "Server=TU_SERVIDOR;Database=BaseDeDatos;User Id=TuUsuario;Password=query_sql;"
 }
 ```
 
